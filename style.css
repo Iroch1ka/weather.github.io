@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   font-family: "Lato", sans-serif; 
+   color: #fff;
+}
+.wrapper{
+  background: linear-gradient(180deg,#62b8f6 0%, #2c79c1 100%);
+  width: 350px;
+  border: 2px solid orangered;
+  margin: 50px auto;
+  padding: 30px 0px 0px 0px;
+  text-align: center;
+  border-radius:20px;
+}
+.weather{
+  display: flex;
+ justify-content: center;
+ gap: 15px;
+ margin-top: 20px;
+}
+.left, .right{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+    padding: 20px 20px 0 20px;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: left;
+ 
+}
+.right{
+ align-items: center; 
+ }
+h3, p,.inp,.btn {
+  margin-top: 20px;
+}
+p{
+  font-size: 24px;
+ }
+.nowDate{
+  margin-left: 10px;
+  font-size: 30px;
+  color:orangered;
+  font-weight: 600;
+}
+.inp{
+  font-size: 18px;
+  padding: 5px 10px;
+   border: 1px solid blue;
+  outline: none;
+  color: blue;
+  border-radius: 5px;
+}
+.btn{
+  font-size: 18px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  color: blue;
+  background: lightblue;
+  margin-left: 5px;
+}
+h3{
+  font-size: 25px;
+}
+img {
+  position: relative;
+  top: -15px;
+  right: 0;
+  width: 80px;
+  height: 80px;
+}
+.wind, .hum{
+  position: relative;
+  top: -48px;
+   font-weight: 700;
+}
+.temp{
+   font-weight: 700;
+  font-size: 25px;
+}
